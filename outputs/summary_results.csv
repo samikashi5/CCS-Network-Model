@@ -1,0 +1,2 @@
+status,objective_total_cost_usd_per_year,total_flow_tons_per_year,sink_capacity_tpy,capture_target_tpy,discount_rate,asset_lifetime_years,pipeline_unit_cost_usd_per_ton_km,truck_unit_cost_usd_per_ton_km,storage_cost_usd_per_ton
+Optimal,31287824.308617443,1670000.0,2000000.0,1670000.0,0.1,20,0.02117459624772546,0.08,15.0

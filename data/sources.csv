@@ -1,0 +1,6 @@
+source,lat,lon,emissions_tons,distance_overground_km,distance_underground_km
+Plant_A_Stockton,37.9577,-121.2908,220000,47,55
+Plant_B_Tracy,37.7397,-121.4252,180000,35,41
+Plant_C_Merced,37.3022,-120.4829,300000,92,105
+Plant_D_Fresno,36.7378,-119.7871,450000,175,198
+Plant_E_Bakersfield,35.3733,-119.0187,520000,330,365
