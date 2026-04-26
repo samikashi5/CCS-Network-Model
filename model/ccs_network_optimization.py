@@ -20,19 +20,19 @@ def crf(discount_rate: float, lifetime_years: int) -> float:
 
 @dataclass
 class Parameters:
-    # NEED INFO: Financial assumptions from literature/project financing plan.
+    # Financial assumptions from literature (10% mid-range private CCS; 20yr full project life)
     discount_rate: float = 0.10
     asset_lifetime_years: int = 20
 
-    # NEED INFO: Transport/storage assumptions from literature.
-    trucking_cost_usd_per_ton_km: float = 0.08
+    # Transport/storage assumptions from literature (Myers et al. 2024; geological storage literature)
+    trucking_cost_usd_per_ton_km: float = 0.15
     pipeline_opex_usd_per_ton_km: float = 0.02
     pipeline_capex_usd_per_ton_km: float = 0.01
     storage_cost_usd_per_ton: float = 15.0
 
-    # NEED INFO: Sink capacity and capture target assumptions.
+    # Sink capacity (Aemetis) and capture target (Aemetis remaining capacity to fill)
     sink_capacity_tpy: float = 2_000_000.0
-    capture_target_tpy: float | None = None
+    capture_target_tpy: float | None = 1_600_000.0
 
 
 def load_sources(csv_path: Path) -> pd.DataFrame:

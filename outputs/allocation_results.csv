@@ -1,6 +1,6 @@
 source,emissions_tons,selected_pipeline,selected_truck,selected_overground,selected_underground,chosen_route,L_km,flow_pipeline_tons,flow_truck_tons,flow_total_tons
-Plant_A_Stockton,220000,1,0,1,0,overground,47,220000.0,0.0,220000.0
-Plant_B_Tracy,180000,1,0,1,0,overground,35,180000.0,0.0,180000.0
-Plant_C_Merced,300000,1,0,1,0,overground,92,300000.0,0.0,300000.0
-Plant_D_Fresno,450000,1,0,1,0,overground,175,450000.0,0.0,450000.0
-Plant_E_Bakersfield,520000,1,0,1,0,overground,330,520000.0,0.0,520000.0
+Los_Angeles_Refinery_Carson,5840000,0,1,0,1,underground,518,0.0,0.0,0.0
+Chevron_Richmond_Refinery_Richmond,4370000,0,1,0,1,underground,134,0.0,0.0,0.0
+Martinez_Refining_Company_Martinez,3650000,1,0,0,1,underground,112,1600000.0,0.0,1600000.0
+Chevron_El_Segundo_Refinery_El_Segundo,3150000,0,1,0,1,underground,498,0.0,0.0,0.0
+Valero_Benicia_Refinery_Benicia,2670000,0,1,0,1,underground,118,0.0,0.0,0.0
